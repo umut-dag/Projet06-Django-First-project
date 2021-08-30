@@ -7,6 +7,5 @@ admin.site.urls est la seule exception à cette règle. """
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('sondage/', include('polls.urls')),
-    path('', include('polls.urls')),
+    path('sondage/', include('polls.urls'))
 ]
